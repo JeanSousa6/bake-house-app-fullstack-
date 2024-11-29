@@ -7,6 +7,7 @@ import jwt from 'jsonwebtoken'
 import { ObjectId } from 'mongodb'
 import { error } from 'console'
 
+const { authenticate } = passport; 
 
 const collectionName = 'users'
 
@@ -24,16 +25,16 @@ passport.use(new LocalStrategy({
             return callback(null , false);
         }
 
-        const saltBuffer = user.salt.saltBuffer
+        const saltBuffer = user.salt.buffer
 
         crypto.pbkdf2(password, saltBuffer, 310000, 16, 'sha256' , (err, hashedPassword) => {
             if(err) {
                 return callback(null, false); 
             }
 
-            const userPasswordBuffer = Buffer.from(user.password.buffer) 
+            const userPasswordBuffer = Buffer.from(user.password.buffer); 
 
-            if(!crypto.timingSafeEqual(userPasswordBuffer) , hashedPassword){
+            if(!crypto.timingSafeEqual(userPasswordBuffer , hashedPassword)){
                 return callback(null , false);
             }
 
@@ -114,6 +115,49 @@ authRouter.post('/signup' , async (req , res) => {
 
 
 })
+
+
+authRouter.post('/login' , (req , res) => {
+
+    passport.authenticate('local' , (error , user) => {    
+
+    if(error) {
+        return res.status(500).send({
+            sucess : false,
+            statusCode : 500,
+            body : {
+                text : 'Error during authentication',
+                error
+            }
+        })
+    }
+   
+    if(!user){
+        return res.status(400).send({
+            sucess : false,
+            statusCode : 400,
+            body : {
+                text : 'Error, user not found',
+                error
+            }
+
+        })
+    } 
+
+    const token = jwt.sign(user , 'secret')
+    return res.status(200).send({
+        sucess : true, 
+        statusCode : 200,
+        body : { 
+            text : 'User logged sucessfully',
+            user ,
+            token
+        }
+    })
+
+    })(req, res);
+})
+
 
 
 export default authRouter;
