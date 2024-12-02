@@ -137,7 +137,7 @@ authRouter.post('/login' , (req , res) => {
             sucess : false,
             statusCode : 400,
             body : {
-                text : 'Error, user not found',
+                text : 'Recheck your credentials',
                 error
             }
 
