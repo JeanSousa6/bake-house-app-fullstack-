@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Bolo de Chocolate",
+    "price": 30.50,
+    "available": true,
+    "description": "Bolo de chocolate com recheio cremoso e cobertura de brigadeiro.",
+    "ingredients": ["Farinha", "Açúcar", "Chocolate", "Ovos", "Manteiga", "Leite"],
+    "category": "Bolos"
+  },
+  {
+    "name": "Pão Francês",
+    "price": 0.80,
+    "available": true,
+    "description": "Pão francês fresco e crocante.",
+    "ingredients": ["Farinha de trigo", "Água", "Fermento", "Sal"],
+    "category": "Pães"
+  },
+  {
+    "name": "Croissant de Queijo",
+    "price": 4.50,
+    "available": true,
+    "description": "Croissant folhado recheado com queijo derretido.",
+    "ingredients": ["Farinha", "Manteiga", "Queijo", "Ovos", "Leite"],
+    "category": "Salgados"
+  },
+  {
+    "name": "Torta de Limão",
+    "price": 35.00,
+    "available": false,
+    "description": "Torta com base crocante, recheio de limão e cobertura de merengue.",
+    "ingredients": ["Farinha", "Açúcar", "Manteiga", "Limão", "Leite condensado", "Clara de ovo"],
+    "category": "Tortas"
+  },
+  {
+    "name": "Cookie com Gotas de Chocolate",
+    "price": 2.50,
+    "available": true,
+    "description": "Cookie macio com generosas gotas de chocolate.",
+    "ingredients": ["Farinha", "Açúcar", "Manteiga", "Chocolate", "Ovos"],
+    "category": "Biscoitos"
+  },
+  {
+    "name": "Esfirra de Carne",
+    "price": 5.00,
+    "available": true,
+    "description": "Esfirra aberta com recheio de carne moída temperada.",
+    "ingredients": ["Farinha", "Fermento", "Carne moída", "Cebola", "Tomate", "Especiarias"],
+    "category": "Salgados"
+  },
+  {
+    "name": "Baguete Tradicional",
+    "price": 3.20,
+    "available": true,
+    "description": "Baguete de trigo com casca crocante.",
+    "ingredients": ["Farinha de trigo", "Água", "Fermento", "Sal"],
+    "category": "Pães"
+  },
+  {
+    "name": "Cupcake Red Velvet",
+    "price": 6.50,
+    "available": false,
+    "description": "Cupcake vermelho com cobertura de cream cheese.",
+    "ingredients": ["Farinha", "Cacau", "Ovos", "Açúcar", "Corante vermelho", "Cream cheese"],
+    "category": "Bolos"
+  },
+  {
+    "name": "Quiche de Espinafre",
+    "price": 12.00,
+    "available": true,
+    "description": "Quiche com base amanteigada e recheio de espinafre e queijo.",
+    "ingredients": ["Farinha", "Manteiga", "Espinafre", "Queijo", "Ovos", "Creme de leite"],
+    "category": "Salgados"
+  },
+  {
+    "name": "Pudim de Leite",
+    "price": 20.00,
+    "available": true,
+    "description": "Pudim clássico de leite condensado com calda de caramelo.",
+    "ingredients": ["Leite condensado", "Leite", "Ovos", "Açúcar"],
+    "category": "Sobremesas"
+  },
+  {
+    "name": "Bolo de Cenoura",
+    "price": 25.00,
+    "available": true,
+    "description": "Bolo de cenoura com cobertura de chocolate.",
+    "ingredients": ["Farinha", "Cenoura", "Ovos", "Açúcar", "Óleo", "Chocolate"],
+    "category": "Bolos"
+  },
+  {
+    "name": "Pão Integral",
+    "price": 4.50,
+    "available": true,
+    "description": "Pão integral macio e saudável.",
+    "ingredients": ["Farinha integral", "Água", "Fermento", "Sal"],
+    "category": "Pães"
+  },
+  {
+    "name": "Empada de Frango",
+    "price": 6.00,
+    "available": false,
+    "description": "Empada com massa leve e recheio de frango desfiado.",
+    "ingredients": ["Farinha", "Manteiga", "Frango", "Creme de leite", "Temperos"],
+    "category": "Salgados"
+  },
+  {
+    "name": "Brownie de Chocolate",
+    "price": 15.00,
+    "available": true,
+    "description": "Brownie de chocolate denso e úmido.",
+    "ingredients": ["Chocolate", "Farinha", "Açúcar", "Manteiga", "Ovos"],
+    "category": "Sobremesas"
+  },
+  {
+    "name": "Rosquinha de Canela",
+    "price": 2.00,
+    "available": true,
+    "description": "Rosquinha açucarada com um toque de canela.",
+    "ingredients": ["Farinha", "Açúcar", "Canela", "Ovos", "Manteiga"],
+    "category": "Biscoitos"
+  },
+  {
+    "name": "Focaccia de Alecrim",
+    "price": 8.00,
+    "available": true,
+    "description": "Focaccia italiana com azeite e alecrim.",
+    "ingredients": ["Farinha", "Azeite", "Alecrim", "Fermento", "Sal"],
+    "category": "Pães"
+  },
+  {
+    "name": "Pastel de Nata",
+    "price": 3.50,
+    "available": true,
+    "description": "Tradicional pastel português de creme.",
+    "ingredients": ["Farinha", "Manteiga", "Creme de leite", "Açúcar", "Ovos"],
+    "category": "Sobremesas"
+  },
+  {
+    "name": "Rabanada de Natal",
+    "price": 3.00,
+    "available": false,
+    "description": "Fatias de pão doce fritas e polvilhadas com açúcar e canela.",
+    "ingredients": ["Pão", "Leite", "Açúcar", "Canela", "Ovos"],
+    "category": "Sobremesas"
+  },
+  {
+    "name": "Coxinha de Frango",
+    "price": 6.00,
+    "available": true,
+    "description": "Coxinha com recheio cremoso de frango.",
+    "ingredients": ["Farinha", "Frango", "Leite", "Manteiga", "Temperos"],
+    "category": "Salgados"
+  },
+  {
+    "name": "Pão de Queijo",
+    "price": 1.50,
+    "available": true,
+    "description": "Pão de queijo mineiro tradicional.",
+    "ingredients": ["Polvilho", "Queijo", "Ovos", "Leite", "Óleo"],
+    "category": "Pães"
+  }
+]
+

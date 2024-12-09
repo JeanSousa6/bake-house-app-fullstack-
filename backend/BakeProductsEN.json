@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Chocolate Cake",
+    "price": 30.50,
+    "available": true,
+    "description": "Chocolate cake with creamy filling and brigadeiro topping.",
+    "ingredients": ["Flour", "Sugar", "Chocolate", "Eggs", "Butter", "Milk"],
+    "category": "Cakes"
+  },
+  {
+    "name": "French Bread",
+    "price": 0.80,
+    "available": true,
+    "description": "Fresh and crispy French bread.",
+    "ingredients": ["Wheat flour", "Water", "Yeast", "Salt"],
+    "category": "Breads"
+  },
+  {
+    "name": "Cheese Croissant",
+    "price": 4.50,
+    "available": true,
+    "description": "Flaky croissant filled with melted cheese.",
+    "ingredients": ["Flour", "Butter", "Cheese", "Eggs", "Milk"],
+    "category": "Savory"
+  },
+  {
+    "name": "Lemon Pie",
+    "price": 35.00,
+    "available": false,
+    "description": "Pie with a crunchy base, lemon filling, and meringue topping.",
+    "ingredients": ["Flour", "Sugar", "Butter", "Lemon", "Condensed milk", "Egg white"],
+    "category": "Pies"
+  },
+  {
+    "name": "Chocolate Chip Cookie",
+    "price": 2.50,
+    "available": true,
+    "description": "Soft cookie with generous chocolate chips.",
+    "ingredients": ["Flour", "Sugar", "Butter", "Chocolate", "Eggs"],
+    "category": "Cookies"
+  },
+  {
+    "name": "Beef Esfiha",
+    "price": 5.00,
+    "available": true,
+    "description": "Open esfiha with seasoned ground beef filling.",
+    "ingredients": ["Flour", "Yeast", "Ground beef", "Onion", "Tomato", "Spices"],
+    "category": "Savory"
+  },
+  {
+    "name": "Traditional Baguette",
+    "price": 3.20,
+    "available": true,
+    "description": "Wheat baguette with a crispy crust.",
+    "ingredients": ["Wheat flour", "Water", "Yeast", "Salt"],
+    "category": "Breads"
+  },
+  {
+    "name": "Red Velvet Cupcake",
+    "price": 6.50,
+    "available": false,
+    "description": "Red cupcake with cream cheese frosting.",
+    "ingredients": ["Flour", "Cocoa", "Eggs", "Sugar", "Red dye", "Cream cheese"],
+    "category": "Cakes"
+  },
+  {
+    "name": "Spinach Quiche",
+    "price": 12.00,
+    "available": true,
+    "description": "Quiche with a buttery crust and spinach and cheese filling.",
+    "ingredients": ["Flour", "Butter", "Spinach", "Cheese", "Eggs", "Cream"],
+    "category": "Savory"
+  },
+  {
+    "name": "Milk Pudding",
+    "price": 20.00,
+    "available": true,
+    "description": "Classic condensed milk pudding with caramel sauce.",
+    "ingredients": ["Condensed milk", "Milk", "Eggs", "Sugar"],
+    "category": "Desserts"
+  },
+  {
+    "name": "Carrot Cake",
+    "price": 25.00,
+    "available": true,
+    "description": "Carrot cake with chocolate topping.",
+    "ingredients": ["Flour", "Carrot", "Eggs", "Sugar", "Oil", "Chocolate"],
+    "category": "Cakes"
+  },
+  {
+    "name": "Whole Wheat Bread",
+    "price": 4.50,
+    "available": true,
+    "description": "Soft and healthy whole wheat bread.",
+    "ingredients": ["Whole wheat flour", "Water", "Yeast", "Salt"],
+    "category": "Breads"
+  },
+  {
+    "name": "Chicken Empanada",
+    "price": 6.00,
+    "available": false,
+    "description": "Empanada with a light crust and shredded chicken filling.",
+    "ingredients": ["Flour", "Butter", "Chicken", "Cream", "Seasonings"],
+    "category": "Savory"
+  },
+  {
+    "name": "Chocolate Brownie",
+    "price": 15.00,
+    "available": true,
+    "description": "Dense and moist chocolate brownie.",
+    "ingredients": ["Chocolate", "Flour", "Sugar", "Butter", "Eggs"],
+    "category": "Desserts"
+  },
+  {
+    "name": "Cinnamon Donut",
+    "price": 2.00,
+    "available": true,
+    "description": "Sugar-coated donut with a touch of cinnamon.",
+    "ingredients": ["Flour", "Sugar", "Cinnamon", "Eggs", "Butter"],
+    "category": "Cookies"
+  },
+  {
+    "name": "Rosemary Focaccia",
+    "price": 8.00,
+    "available": true,
+    "description": "Italian focaccia with olive oil and rosemary.",
+    "ingredients": ["Flour", "Olive oil", "Rosemary", "Yeast", "Salt"],
+    "category": "Breads"
+  },
+  {
+    "name": "Pastel de Nata",
+    "price": 3.50,
+    "available": true,
+    "description": "Traditional Portuguese custard tart.",
+    "ingredients": ["Flour", "Butter", "Cream", "Sugar", "Eggs"],
+    "category": "Desserts"
+  },
+  {
+    "name": "Christmas French Toast",
+    "price": 3.00,
+    "available": false,
+    "description": "Sweet fried bread slices dusted with sugar and cinnamon.",
+    "ingredients": ["Bread", "Milk", "Sugar", "Cinnamon", "Eggs"],
+    "category": "Desserts"
+  },
+  {
+    "name": "Chicken Coxinha",
+    "price": 6.00,
+    "available": true,
+    "description": "Coxinha with creamy chicken filling.",
+    "ingredients": ["Flour", "Chicken", "Milk", "Butter", "Seasonings"],
+    "category": "Savory"
+  },
+  {
+    "name": "Cheese Bread",
+    "price": 1.50,
+    "available": true,
+    "description": "Traditional Brazilian cheese bread.",
+    "ingredients": ["Tapioca starch", "Cheese", "Eggs", "Milk", "Oil"],
+    "category": "Breads"
+  }
+]
+
