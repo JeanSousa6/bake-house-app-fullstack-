@@ -158,6 +158,126 @@
     "description": "Pão de queijo mineiro tradicional.",
     "ingredients": ["Polvilho", "Queijo", "Ovos", "Leite", "Óleo"],
     "category": "Pães"
+  },
+  {
+    "name": "Vanilla Cupcake",
+    "price": 4.00,
+    "available": true,
+    "description": "Delicate cupcake with vanilla frosting.",
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Vanilla extract"],
+    "category": "Cakes"
+  },
+  {
+    "name": "Multigrain Bread",
+    "price": 6.00,
+    "available": true,
+    "description": "Healthy bread with a mix of grains and seeds.",
+    "ingredients": ["Whole wheat flour", "Sunflower seeds", "Flaxseed", "Yeast", "Salt"],
+    "category": "Breads"
+  },
+  {
+    "name": "Ham and Cheese Puff",
+    "price": 5.50,
+    "available": true,
+    "description": "Savory puff pastry filled with ham and cheese.",
+    "ingredients": ["Flour", "Butter", "Ham", "Cheese"],
+    "category": "Savory"
+  },
+  {
+    "name": "Apple Pie",
+    "price": 28.00,
+    "available": false,
+    "description": "Classic pie with a flaky crust and apple filling.",
+    "ingredients": ["Flour", "Sugar", "Butter", "Apple", "Cinnamon"],
+    "category": "Pies"
+  },
+  {
+    "name": "Churros",
+    "price": 2.50,
+    "available": true,
+    "description": "Golden-fried churros with cinnamon and sugar coating.",
+    "ingredients": ["Flour", "Butter", "Eggs", "Cinnamon", "Sugar"],
+    "category": "Desserts"
+  },
+  {
+    "name": "Pumpkin Bread",
+    "price": 7.50,
+    "available": true,
+    "description": "Soft bread with a hint of pumpkin flavor.",
+    "ingredients": ["Flour", "Pumpkin", "Eggs", "Sugar", "Butter"],
+    "category": "Breads"
+  },
+  {
+    "name": "Chocolate Éclair",
+    "price": 4.50,
+    "available": true,
+    "description": "Pastry filled with custard and topped with chocolate glaze.",
+    "ingredients": ["Flour", "Eggs", "Butter", "Chocolate", "Milk"],
+    "category": "Desserts"
+  },
+  {
+    "name": "Blueberry Muffin",
+    "price": 3.50,
+    "available": true,
+    "description": "Soft muffin with juicy blueberries.",
+    "ingredients": ["Flour", "Blueberries", "Sugar", "Butter", "Milk"],
+    "category": "Cakes"
+  },
+  {
+    "name": "Garlic Breadsticks",
+    "price": 5.00,
+    "available": true,
+    "description": "Crispy breadsticks with a garlic and herb topping.",
+    "ingredients": ["Flour", "Garlic", "Butter", "Herbs", "Yeast"],
+    "category": "Breads"
+  },
+  {
+    "name": "Turkey Sandwich",
+    "price": 8.00,
+    "available": true,
+    "description": "Sandwich with turkey breast, lettuce, and mayo.",
+    "ingredients": ["Bread", "Turkey breast", "Lettuce", "Mayonnaise"],
+    "category": "Savory"
+  },
+  {
+    "name": "Custard Tart",
+    "price": 3.00,
+    "available": true,
+    "description": "Tart with a creamy custard filling.",
+    "ingredients": ["Flour", "Eggs", "Sugar", "Milk", "Vanilla"],
+    "category": "Desserts"
+  },
+  {
+    "name": "Cheddar Cheese Biscuit",
+    "price": 2.50,
+    "available": true,
+    "description": "Fluffy biscuit with melted cheddar cheese.",
+    "ingredients": ["Flour", "Butter", "Cheddar cheese", "Milk"],
+    "category": "Savory"
+  },
+  {
+    "name": "Almond Croissant",
+    "price": 6.50,
+    "available": true,
+    "description": "Buttery croissant filled with almond cream.",
+    "ingredients": ["Flour", "Butter", "Almonds", "Sugar", "Eggs"],
+    "category": "Desserts"
+  },
+  {
+    "name": "Cinnamon Roll",
+    "price": 5.00,
+    "available": true,
+    "description": "Sweet roll with cinnamon filling and icing.",
+    "ingredients": ["Flour", "Cinnamon", "Sugar", "Butter", "Milk"],
+    "category": "Cakes"
+  },
+  {
+    "name": "Vegetable Empanada",
+    "price": 5.00,
+    "available": false,
+    "description": "Empanada with a mix of fresh vegetables.",
+    "ingredients": ["Flour", "Butter", "Vegetables", "Seasonings"],
+    "category": "Savory"
   }
 ]
 

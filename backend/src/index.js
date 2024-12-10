@@ -5,6 +5,7 @@ import { config } from 'dotenv'
 import authRouter from './auth/auth.js'
 import usersRouter from './routes/users.js'
 import productsRouter from './routes/products.js'
+import ordersRouter from './routes/orders.js'
 
 config()
 
@@ -35,10 +36,10 @@ async function main() {
         })
     })
 
-    app.use('/auth', authRouter)
-    app.use('/users',usersRouter)
-    app.use('/products', productsRouter)
-
+    app.use("/auth", authRouter);
+    app.use("/users", usersRouter);
+    app.use("/products", productsRouter);
+    app.use("/orders", ordersRouter);
 
 
     app.listen(port , () => {

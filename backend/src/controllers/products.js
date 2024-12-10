@@ -21,7 +21,7 @@ export default class ProductsControllers {
 
     async getAvailableProducts() {
         try{
-            const products = await this.dataAcess.getAvailableProducts()
+            const products = await this.dataAcess.getAvaliableProducts()
 
             return ok(products)
         }catch(error){
